@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.javacasts.tutorial</groupId>
+	<artifactId>java9</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>Java 9</name>
+	<description>Play around with Java 9</description>
+	<url>https://javacasts.net/</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.9</java.version>
+	</properties>
+
+	<scm>
+		<connection>scm:git:http://github.com/rynr/java9.git</connection>
+		<developerConnection>scm:git:git@github.com:rynr/java9.git</developerConnection>
+		<url>http://javacasts.net/</url>
+	</scm>
+
+	<developers>
+		<developer>
+			<id>rynr</id>
+			<name>Rainer Jung</name>
+			<email>Rainer.Jung@gmail.com</email>
+			<url>http://about.me/rjung</url>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>+1</timezone>
+			<properties>
+				<picUrl>://s.gravatar.com/avatar/88c13904e426e3979ec262f664c34874</picUrl>
+			</properties>
+		</developer>
+	</developers>
+
+	<dependencies>
+		<dependency>
+			<artifactId>junit</artifactId>
+			<groupId>junit</groupId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
